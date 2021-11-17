@@ -1,0 +1,115 @@
+:root {
+  --color-col: rgb(238, 238, 238);
+  --color-button: #6c63ff;
+  --box-shadow: 9px 9px 5px rgb(212, 211, 211);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 70px auto;
+}
+h1 {
+  text-align: center;
+  font-size: 90px;
+  margin: 0 auto;
+  padding: 0px;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  font-size: 48px;
+  margin: 0 auto;
+}
+p {
+  text-align: center;
+  font-size: 24px;
+  color: gray;
+  margin: 0px;
+}
+.button {
+  justify-content: space-evenly;
+  text-align: center;
+}
+.contact {
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--color-button);
+  margin: 0px 20px;
+  border: 1px solid var(--color-button);
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.about {
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: var(--color-button);
+  background-color: white;
+  margin: 0px 20px;
+  border: 1px solid var(--color-button);
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.second {
+  margin: 30px auto;
+}
+.back {
+  text-align: center;
+  display: block;
+}
+.summery {
+  display: flex;
+  margin: 30px auto;
+  max-width: 800px;
+}
+.summery p {
+  text-align: justify;
+  background-color: var(--color-col);
+  line-height: 25.5px;
+  padding: 25px;
+  margin: 0px 8px;
+  font-size: 20px;
+  width: 400px;
+}
+
+.con {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+#mail {
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+#mail:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 35px;
+  text-align: justify;
+}
+.lunch {
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--color-button);
+
+  border: 1px solid var(--color-button);
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.width-2 {
+  max-width: 100%;
+  height: auto;
+}
