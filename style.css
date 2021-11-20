@@ -113,3 +113,29 @@ h4 {
   max-width: 100%;
   height: auto;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h4 {
+    text-align: justify;
+  }
+  h3 {
+    text-align: center;
+  }
+  .lunch {
+    margin: 0 auto;
+    display: block;
+    padding: 20px 100px;
+  }
+  .con {
+    font-size: 35px;
+  }
+  .summery p {
+    font-size: 13px;
+    text-align: center;
+  }
+}
